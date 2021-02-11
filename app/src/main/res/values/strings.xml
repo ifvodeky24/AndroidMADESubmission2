@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <string name="share_text">Ayo nonton bareng %s di Movie Catalogue</string>
+    <string name="releaseDate">Release Date: %s</string>
+    <string name="firstAirDate">First Air Date: %s</string>
+    <string name="vote">Vote Average: %s</string>
+    <string name="error_connection">Error connection</string>
+    <string name="no_data">No Data</string>
+    <string name="movie">Movie</string>
+    <string name="tv">Tv</string>
+    <string name="send_application">Send this application now</string>
+    <string name="favourite">Favourite</string>
+    <string name="menu_favourite">Favourite</string>
+</resources>
