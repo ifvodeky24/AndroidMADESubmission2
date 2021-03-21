@@ -10,7 +10,6 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.cataloguemovie.R
 import com.example.cataloguemovie.movieDetail.MovieDetailFragment
-import com.example.core.data.source.local.entity.MovieEntity
 import com.example.core.domain.model.Movie
 import com.example.core.ui.MovieFavouriteAdapter
 import com.example.core.ui.MovieInterface
@@ -21,7 +20,6 @@ import org.koin.android.viewmodel.ext.android.viewModel
 
 class MovieFavouriteFragment : Fragment(), MovieInterface {
 
-    private var movieList: ArrayList<MovieEntity> = arrayListOf()
     private var _binding: FragmentMovieFavouriteBinding? = null
     private val binding get() = _binding
 

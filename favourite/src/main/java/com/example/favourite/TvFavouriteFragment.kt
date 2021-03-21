@@ -19,7 +19,6 @@ import com.example.favourite.databinding.FragmentTvFavouriteBinding
 import org.koin.android.viewmodel.ext.android.viewModel
 
 class TvFavouriteFragment : Fragment(), TvInterface {
-    private var tvList: ArrayList<Tv> = arrayListOf()
     private var _binding: FragmentTvFavouriteBinding? = null
     private val binding get() = _binding
 
