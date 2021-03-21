@@ -1,4 +1,4 @@
-package com.example.core.di
+package com.example.cataloguemovie.di
 
 import com.example.cataloguemovie.movie.MovieViewModel
 import com.example.cataloguemovie.tv.TvViewModel

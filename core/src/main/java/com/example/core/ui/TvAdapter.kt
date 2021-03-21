@@ -6,7 +6,6 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import com.example.core.BuildConfig
 import com.example.core.R
 import com.example.core.databinding.ItemTvBinding
 import com.example.core.domain.model.Tv

@@ -24,9 +24,6 @@ android {
 
     buildTypes {
         release {
-//            buildConfigField "String", "BASE_URL", "\"https://api.themoviedb.org/3/\""
-//            buildConfigField "String", "IMAGE_ENDPOINT", "\"https://image.tmdb.org/t/p/w342\""
-
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }

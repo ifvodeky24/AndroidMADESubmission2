@@ -47,7 +47,7 @@ class MovieFavouriteFragment : Fragment(), MovieInterface {
         viewModel.getMovieFavourites().observe(this, { movie ->
             binding?.progressBar?.gone()
 
-            if (movie.size > 0) {
+            if (movie.isNotEmpty()) {
                 binding?.rvMovie?.visible()
                 binding?.noData?.gone()
                 movieAdapter.setMovies(movie)

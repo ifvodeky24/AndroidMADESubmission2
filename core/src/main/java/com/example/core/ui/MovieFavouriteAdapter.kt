@@ -1,12 +1,10 @@
 package com.example.core.ui
 
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import com.example.core.BuildConfig
 import com.example.core.R
 import com.example.core.databinding.ItemMovieBinding
 import com.example.core.domain.model.Movie

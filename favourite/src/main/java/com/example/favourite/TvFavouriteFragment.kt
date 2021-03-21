@@ -44,7 +44,7 @@ class TvFavouriteFragment : Fragment(), TvInterface {
         viewModel.getTvFavourites().observe(this, { tv ->
             binding?.progressBar?.gone()
 
-            if (tv.size > 0) {
+            if (tv.isNotEmpty()) {
                 binding?.rvTv?.visible()
                 binding?.noData?.gone()
                 tvAdapter.setMovies(tv)

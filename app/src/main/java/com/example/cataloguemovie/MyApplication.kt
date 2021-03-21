@@ -1,6 +1,8 @@
 package com.example.cataloguemovie
 
 import android.app.Application
+import com.example.cataloguemovie.di.useCaseModule
+import com.example.cataloguemovie.di.viewModelModule
 import com.example.core.di.*
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger

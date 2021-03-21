@@ -6,7 +6,6 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import com.example.cataloguemovie.BuildConfig
 import com.example.cataloguemovie.R
 import com.example.cataloguemovie.databinding.FragmentMovieDetailBinding
 import com.example.cataloguemovie.movie.MovieViewModel

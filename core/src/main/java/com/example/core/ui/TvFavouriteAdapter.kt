@@ -1,12 +1,10 @@
 package com.example.core.ui
 
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import com.example.core.BuildConfig
 import com.example.core.R
 import com.example.core.databinding.ItemTvBinding
 import com.example.core.domain.model.Tv
@@ -46,7 +44,7 @@ class TvFavouriteAdapter(val tvInterface: TvInterface) :
                 tvOverviewTvShow.text = tv.overview
                 tvFirstAirDateTvShow.text = tv.firstAirDate
                 tvVoteAverageTvShow.text = tv.voteAverage.toString()
-                
+
                 Glide.with(binding.root)
                     .load("${"https://image.tmdb.org/t/p/w342"}${tv.posterPath}")
                     .apply(
