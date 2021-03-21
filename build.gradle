@@ -53,4 +53,5 @@ ext {
     lifecycle_version = "2.2.0"
 
     koin_version = "2.1.6"
+    leak_canary= "2.4"
 }
