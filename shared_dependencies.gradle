@@ -39,4 +39,5 @@ dependencies{
 
     //leak canary
     debugImplementation "com.squareup.leakcanary:leakcanary-android:$leak_canary"
+
 }
