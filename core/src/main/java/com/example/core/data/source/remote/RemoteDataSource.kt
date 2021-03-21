@@ -1,6 +1,5 @@
 package com.example.core.data.source.remote
 
-import android.util.Log
 import com.example.core.data.source.remote.response.MovieResponse
 import com.example.core.data.source.remote.response.TvResponse
 import com.example.core.data.source.remote.service.ApiResponse
@@ -24,7 +23,6 @@ class RemoteDataSource(private val apiService: ApiService) {
                 }
             } catch (e: Exception) {
                 emit(ApiResponse.Error(e.toString()))
-                Log.e("RemoteDataSource", e.toString())
             }
         }.flowOn(Dispatchers.IO)
     }
@@ -41,7 +39,6 @@ class RemoteDataSource(private val apiService: ApiService) {
                 }
             } catch (e: Exception) {
                 emit(ApiResponse.Error(e.toString()))
-                Log.e("RemoteDataSource", e.toString())
             }
         }.flowOn(Dispatchers.IO)
     }
@@ -53,7 +50,6 @@ class RemoteDataSource(private val apiService: ApiService) {
                 emit(ApiResponse.Success(response))
             } catch (e: Exception) {
                 emit(ApiResponse.Error(e.toString()))
-                Log.e("RemoteDataSource", e.toString())
             }
         }.flowOn(Dispatchers.IO)
     }
@@ -65,7 +61,6 @@ class RemoteDataSource(private val apiService: ApiService) {
                 emit(ApiResponse.Success(response))
             } catch (e: Exception) {
                 emit(ApiResponse.Error(e.toString()))
-                Log.e("RemoteDataSource", e.toString())
             }
         }.flowOn(Dispatchers.IO)
     }

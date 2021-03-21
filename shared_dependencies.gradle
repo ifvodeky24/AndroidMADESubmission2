@@ -40,4 +40,10 @@ dependencies{
     //leak canary
     debugImplementation "com.squareup.leakcanary:leakcanary-android:$leak_canary"
 
+    //timber
+    implementation "com.jakewharton.timber:timber:$timber"
+
+    //lottie
+    implementation "com.airbnb.android:lottie:$lottie_version"
+
 }

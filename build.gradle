@@ -56,4 +56,6 @@ ext {
     leak_canary= "2.4"
     sqlcipher = "4.4.0"
     sqlite_ktx = "2.1.0"
+    timber = "4.7.1"
+    lottie_version = "3.4.1"
 }
